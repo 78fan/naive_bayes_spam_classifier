@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75d4cdd-0dc2-4a90-9850-7760bdab167e" name="Changes" comment="file created">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a75d4cdd-0dc2-4a90-9850-7760bdab167e" name="Changes" comment="classifier logic written">
+      <change afterPath="$PROJECT_DIR$/sms_spam_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spam.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bayes_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/bayes_classifier.py" afterDir="false" />
     </list>
@@ -48,11 +49,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.bayes_classifier.executor": "Run",
+    "Python.sms_spam_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Vlad/PycharmProjects/ds/naive_bayes_spam_classifier"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vlad\PycharmProjects\ds\naive_bayes_spam_classifier" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752755904316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="classifier logic written">
+      <option name="closed" value="true" />
+      <created>1752765550006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752765550006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="file created" />
-    <option name="LAST_COMMIT_MESSAGE" value="file created" />
+    <MESSAGE value="classifier logic written" />
+    <option name="LAST_COMMIT_MESSAGE" value="classifier logic written" />
   </component>
 </project>

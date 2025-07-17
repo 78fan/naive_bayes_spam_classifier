@@ -57,14 +57,15 @@ class NaiveBayesClassifier:
     def _get_spam_probability(df: pd.DataFrame) -> float:
         return df["spam"].sum()/len(df)
 
-    def classify(self, email: str) -> float:
+    def classify(self, email: str) -> int:
         email_words = re.sub(r'[^a-z ]', '', email.lower()).split()
         numerator = np.prod([self.probabilities[word]["spam"] for word in email_words
                              if word in self.probabilities])*self.spam_probability
         denominator = numerator + (1-self.spam_probability) * \
                        np.prod([self.probabilities[word]["not spam"] for word in email_words
                                 if word in self.probabilities])
-        return numerator/denominator if denominator != 0 else self.spam_probability
+        result = numerator/denominator if denominator != 0 else self.spam_probability
+        return 1 if result >= 0.5 else 0
 
 if __name__ == '__main__':
     nbc = NaiveBayesClassifier(test_df)
