@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a75d4cdd-0dc2-4a90-9850-7760bdab167e" name="Changes" comment="classifier logic written">
-      <change afterPath="$PROJECT_DIR$/sms_spam_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spam.csv" afterDir="false" />
+    <list default="true" id="a75d4cdd-0dc2-4a90-9850-7760bdab167e" name="Changes" comment="Test on sms spam dataset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bayes_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/bayes_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sms_spam_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sms_spam_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752765550006</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test on sms spam dataset">
+      <option name="closed" value="true" />
+      <created>1752767593814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752767593814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +124,7 @@
     <MESSAGE value="first" />
     <MESSAGE value="file created" />
     <MESSAGE value="classifier logic written" />
-    <option name="LAST_COMMIT_MESSAGE" value="classifier logic written" />
+    <MESSAGE value="Test on sms spam dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test on sms spam dataset" />
   </component>
 </project>
